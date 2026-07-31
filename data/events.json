@@ -1,0 +1,23 @@
+[
+    {
+        "title": "新入生歓迎会",
+        "date": "2026-08-20",
+        "place": "○○大学",
+        "description": "新入生歓迎イベントです。",
+        "page": "pages/events/shinkan.html"
+    },
+    {
+        "title": "学園祭",
+        "date": "2026-10-10",
+        "place": "○○大学",
+        "description": "模擬店や展示を行います。",
+        "page": "pages/events/a.html"
+    },
+    {
+        "title": "学生交流会",
+        "date": "2026-04-15",
+        "place": "○○大学",
+        "description": "交流会です。",
+        "page": "pages/events/b.html"
+    }
+]

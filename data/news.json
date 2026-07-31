@@ -1,0 +1,16 @@
+[
+    {
+        "date": "2026-07-20",
+        "title": "新歓開催！",
+        "description": "今年度最初の新歓イベントです。",
+        "link": "pages/events/shinkan.html",
+        "important": true
+    },
+    {
+        "date": "2026-07-15",
+        "title": "夏合宿募集開始！",
+        "description": "参加者募集中です。",
+        "link": "pages/events/camp.html",
+        "important": false
+    }
+]
