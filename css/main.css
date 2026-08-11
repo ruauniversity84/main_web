@@ -191,6 +191,7 @@ em { color: var(--coral); font-style: normal; }
 }
 
 @media (max-width: 700px) {
+    .brand-logo { width: 40px; height: 40px; object-fit: contain; }
     .section-pad { padding-left: 22px; padding-right: 22px; }
     .site-header { padding: 20px 22px; }
     .site-nav { align-items: stretch; background: var(--ink); bottom: 0; color: var(--white); flex-direction: column; gap: 26px; justify-content: flex-start; padding: 94px 30px 30px; position: fixed; right: 0; top: 0; transform: translateX(100%); transition: transform .35s ease; width: min(88vw, 360px); z-index: 30; }
@@ -233,6 +234,8 @@ em { color: var(--coral); font-style: normal; }
     .footer-contact { margin-top: 60px; }
     .footer-bottom { flex-wrap: wrap; gap: 14px 20px; }
     .footer-bottom span:nth-child(2) { order: 3; width: 100%; }
+    .footer-social { display: flex; gap: 18px; align-items: center; }
+    .footer-social img { width: 42px; height: 42px; object-fit: contain; }
 }
 
 @media (prefers-reduced-motion: reduce) {
