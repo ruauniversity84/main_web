@@ -1,0 +1,18 @@
+.detail-page { background: var(--paper); min-height: 100vh; }
+.detail-header { align-items: center; display: flex; justify-content: space-between; padding: 28px max(6vw, 22px); }
+.detail-back { font: 11px 'DM Mono', monospace; letter-spacing: .1em; }
+.detail-back:hover { color: var(--coral); }
+.detail-main { margin: 0 auto; max-width: 900px; padding-bottom: 100px; padding-top: 90px; }
+.detail-date { color: var(--coral); font: 12px 'DM Mono', monospace; letter-spacing: .1em; }
+.detail-title { font-size: clamp(42px, 7vw, 86px); font-weight: 900; letter-spacing: -.08em; line-height: 1.08; margin-top: 20px; }
+.detail-lead { color: var(--ink-soft); font-size: 16px; line-height: 2; margin-top: 30px; max-width: 570px; }
+.detail-card { background: var(--mint); border-radius: 32px; display: grid; gap: 25px; grid-template-columns: 1fr 1fr; margin-top: 75px; padding: 34px; }
+.detail-label { font: 10px 'DM Mono', monospace; letter-spacing: .12em; }
+.detail-value { font-size: 19px; font-weight: 800; margin-top: 8px; }
+.detail-note { color: rgba(20,37,45,.72); font-size: 13px; line-height: 1.9; margin-top: 32px; }
+.detail-footer { border-top: 1px solid var(--line); display: flex; justify-content: space-between; margin-top: 75px; padding-top: 22px; }
+@media (max-width: 700px) {
+    .detail-main { padding-top: 55px; }
+    .detail-card { grid-template-columns: 1fr; margin-top: 55px; padding: 25px; }
+    .detail-footer { flex-direction: column; gap: 15px; }
+}

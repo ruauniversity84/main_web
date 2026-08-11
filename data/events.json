@@ -1,0 +1,14 @@
+[
+    {
+        "title": "ホームページ公開！",
+        "date": "2026-08-20",
+        "description": "公開予定です",
+        "page": "index.html"
+    },
+    {
+        "title": "わたらせ祭",
+        "date": "2026-10-10",
+        "description": "模擬店や展示を行います。",
+        "page": "pages/fes.html"
+    }
+]

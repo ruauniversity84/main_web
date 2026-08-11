@@ -1,0 +1,1 @@
+.event-list:empty::after { color: var(--ink-soft); content: 'イベント情報を読み込んでいます…'; display: block; font-size: 13px; padding: 25px 0; }
