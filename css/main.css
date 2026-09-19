@@ -42,8 +42,15 @@ img { display: block; max-width: 100%; }
     top: 0;
     z-index: 20;
 }
-.brand { align-items: center; display: inline-flex; gap: 12px; position: relative; z-index: 2; }
-.brand-logo {
+.brand {
+    align-items: center;
+    display: inline-flex;
+    gap: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.brand-icon {
     border-radius: 50%;
     display: block;
     height: 64px;
@@ -51,7 +58,17 @@ img { display: block; max-width: 100%; }
     width: 64px;
 }
 
-.brand-copy { display: grid; line-height: 1.15; }
+.brand-copy {
+    display: flex;
+    align-items: center;
+}
+
+.brand-text {
+    display: block;
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
 .brand-name { font-size: 15px; font-weight: 800; letter-spacing: .08em; }
 .brand-subtitle { color: var(--ink-soft); font-size: 11px; }
 .site-nav { align-items: center; display: flex; gap: 40px; }
