@@ -9,5 +9,5 @@ window.SITE_CONFIG = {
     heroImage: '',
     heroImageAlt: 'サークルの活動風景',
     contactEmail: 'au.gakuseiziti@gmail.com',
-    feedbackFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdAqljnJQ9snqyRTfzBqXYG0pGK2aIgDdio1BH0t7ig3-97pQ/viewform?usp=publish-editor'
+    feedbackFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSeqEfy79WxvFitdJZDmx23lTNT7Wb8Su6LpWnUJnbEbVY7UZw/viewform?usp=publish-editor'
 };
